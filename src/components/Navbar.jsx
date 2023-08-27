@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faX } from '@fortawesome/free-solid-svg-icons';
-import { useState, useRef } from "react";
+import { useState } from "react";
 
 export default function Navbar() {
 
@@ -15,19 +15,19 @@ export default function Navbar() {
     setIsExpanded(!isExpanded);
   };
   return (
-    <header className='w-screen h-20 bg-black'>
-      <nav className='relative h-full w-full flex items-center px-4'>
+    <header className='w-full h-20 bg-black'>
+      <nav className='relative h-full w-full flex items-center px-10'>
         <h1 className='text-white text-3xl mr-auto'>AI NETWORK</h1>
         <ul className='hidden md:flex text-white gap-6 text-lg '>
-          <li><a className='hover:text-[#F6AE64]' href="#">Home</a></li>
-          <li><a className='hover:text-[#F6AE64]' href="#">About</a></li>
-          <li><a className='hover:text-[#F6AE64]' href="#">Roadmap</a></li>
-          <li><a className='hover:text-[#F6AE64]' href="#">Contact</a></li>
+          <li><a className='hover:text-[#F6AE64] duration-500' href="#">Home</a></li>
+          <li><a className='hover:text-[#F6AE64] duration-500' href="#">About</a></li>
+          <li><a className='hover:text-[#F6AE64] duration-500' href="#">Roadmap</a></li>
+          <li><a className='hover:text-[#F6AE64] duration-500' href="#">Contact</a></li>
         </ul>
 
         <FontAwesomeIcon
           onClick={toggleMenu}
-          className='md:hidden text-white text-2xl hover:text-[#F6AE64]'
+          className='md:hidden text-white text-2xl cursor-pointer hover:text-[#F6AE64] duration-500'
           icon={menuOpen ? faX : faBars} />
 
 
