@@ -1,12 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Homepage from './components/Homepage';
+import About from './components/About';
+import Navbar from './components/Navbar';
+import Roadmap from './components/Roadmap';
 
 function App() {
 
   return (
-    <h1 className='bg-red-500'>AI Network</h1>
+    <>
+      <Navbar />
+      <Homepage />
+      <About />
+      <Roadmap />
+    </>
   )
 }
 
