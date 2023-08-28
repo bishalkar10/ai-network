@@ -2,7 +2,12 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        bp: "575px",
+        bp2: "991px",
+      },
+    },
     keyframes: {
       expand: {
         "0%": { height: "0" },
