@@ -31,11 +31,11 @@ export default function Navbar() {
           icon={menuOpen ? faX : faBars} />
 
 
-        <ul className={`absolute top-20 left-1/2 transform -translate-x-1/2 flex flex-col overflow-hidden md:hidden min-w-[340px] w-full max-w-xl border-[1px] border-b-0 ${menuOpen ? "animate-expand" : "animate-collapse"}`}>
-          <li><a className='block bg-white pl-5 py-3 border-b-[1px]' href="#">Home</a></li>
-          <li><a className='block bg-white pl-5 py-3 border-b-[1px]' href="#">About</a></li>
-          <li><a className='block bg-white pl-5 py-3 border-b-[1px]' href="#">Roadmap</a></li>
-          <li><a className='block bg-white pl-5 py-3 border-b-[1px]' href="#">Contact</a></li>
+        <ul className={`absolute top-20 left-1/2 transform -translate-x-1/2 flex flex-col overflow-hidden z-20 md:hidden min-w-[340px] w-full max-w-xl border-[1px] border-b-0 ${menuOpen ? "animate-expand" : "animate-collapse"}`}>
+          <li><a className='block bg-white pl-5 py-3 border-b-[1px] hover:bg-[#F6AE64] duration-150' href="#">Home</a></li>
+          <li><a className='block bg-white pl-5 py-3 border-b-[1px] hover:bg-[#F6AE64] duration-150' href="#">About</a></li>
+          <li><a className='block bg-white pl-5 py-3 border-b-[1px] hover:bg-[#F6AE64] duration-150' href="#">Roadmap</a></li>
+          <li><a className='block bg-white pl-5 py-3 border-b-[1px] hover:bg-[#F6AE64] duration-150' href="#">Contact</a></li>
         </ul>
       </nav>
     </header>
