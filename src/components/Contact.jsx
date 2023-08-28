@@ -55,7 +55,7 @@ export default function Contact() {
       <h2 className="text-center text-white text-3xl uppercase pb-10 font-bold">
         Contact
       </h2>
-      <div className="bp2:w-full bp2:px-7 bp2:gap-x-6 bp2:grid bp2:grid-cols-3 max-w-[720px] mx-auto">
+      <div className="bp2:w-full bp2:px-7 bp2:gap-x-6 bp2:grid bp2:grid-cols-3 max-w-lg md:max-w-[720px] bp2:max-w-full mx-auto">
         <div className="p-6 bg-[#121320] rounded-[15px] bp2:row-span-4">
           <h3 className="text-white font-bold text-2xl mb-6">
             Contact Information
@@ -88,23 +88,23 @@ export default function Contact() {
             </li>
           </ul>
 
-          <ul className="flex gap-6 text-white hover:text-[#F6AE64] duration-500">
-            <li className="border-2 border-white hover:border-[#F6AE64] h-10 w-10 rounded-full grid place-content-center">
+          <ul className="flex gap-6 text-white">
+            <li className="border-2 border-white hover:border-[#F6AE64] hover:text-[#F6AE64] duration-300 h-10 w-10 rounded-full grid place-content-center">
               <a href={facebookLink} target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faFacebookF} />
               </a>
             </li>
-            <li className="border-2 border-white hover:border-[#F6AE64] h-10 w-10 rounded-full grid place-content-center">
+            <li className="border-2 border-white hover:border-[#F6AE64] hover:text-[#F6AE64] duration-300 h-10 w-10 rounded-full grid place-content-center">
               <a href={twitterLink} target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faTwitter} />
               </a>
             </li>
-            <li className="border-2 border-white hover:border-[#F6AE64] h-10 w-10 rounded-full grid place-content-center">
+            <li className="border-2 border-white hover:border-[#F6AE64] hover:text-[#F6AE64] duration-300 h-10 w-10 rounded-full grid place-content-center">
               <a href={instagramLink} target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faInstagram} />
               </a>
             </li>
-            <li className="border-2 border-white hover:border-[#F6AE64] h-10 w-10 rounded-full grid place-content-center">
+            <li className="border-2 border-white hover:border-[#F6AE64] hover:text-[#F6AE64] duration-300 h-10 w-10 rounded-full grid place-content-center">
               <a href={linkedinLink} target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faLinkedinIn} />
               </a>
@@ -118,7 +118,7 @@ export default function Contact() {
         <form
           onSubmit={handleSubmit}
           id="contact-form"
-          className="bp2:col-span-2 bp2:gap-x-6 bp2:grid grid-cols-2 bp2:auto-rows-min relative"
+          className="bp2:col-span-2 bp2:gap-x-6 bp2:grid bp2:grid-cols-2 bp2:auto-rows-min relative"
         >
           <div className="mb-5">
             <label className="block mb-2 text-[#AAA8B1] " htmlFor="name">
@@ -190,7 +190,7 @@ export default function Contact() {
             </label>
 
             <textarea
-              className="border-[1px] border-[#364046] rounded-md outline-none bg-transparent pl-[15px] py-3 w-full resize-none caret-white text-white"
+              className="border-[1px] border-[#364046] h-24 rounded-md outline-none bg-transparent pl-[15px]  py-3 w-full resize-none caret-white text-white"
               placeholder="Write your question here.."
               id="question"
               type="text"
