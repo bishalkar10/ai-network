@@ -51,7 +51,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="px-3 pb-20">
+    <section id="contact" className="px-3 pt-20 pb-20">
       <h2 className="text-center text-white text-3xl uppercase pb-10 font-bold">
         Contact
       </h2>

@@ -2,7 +2,10 @@ import React from "react";
 
 export default function About() {
   return (
-    <section id="about" className="w-full min-h-screeen h-auto px-3 py-10">
+    <section
+      id="about"
+      className="w-full min-h-screeen h-auto px-3 pb-10 pt-20"
+    >
       <div className="bp2:grid bp2:grid-cols-[auto,1fr] bp:max-w-[516px] md:max-w-[700px] bp2:max-w-4xl xl:max-w-[960px] mx-auto bp2:gap-6">
         {/* grid col 1 */}
         <div className="bp2:w-[216px] h-auto flex bp2:flex-col flex-col bp:flex-row justify-center gap-6 items-center">

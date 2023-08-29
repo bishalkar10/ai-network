@@ -58,9 +58,9 @@ export default function Services() {
   return (
     <section
       id="services"
-      className="bg-[#060A14] px-3 pb-10 w-full min-h-screen"
+      className="bg-[#060A14] px-3 pt-20 w-full min-h-screen"
     >
-      <h2 className="text-center text-white text-3xl uppercase py-10 font-bold">
+      <h2 className="text-center text-white text-3xl uppercase pb-10 font-bold">
         Our Services
       </h2>
       <div className="auto-rows-min h-full mx-auto bp:w-[540px] md:w-[720px] bp2:w-[960px] grid grid-cols-1 bp:grid-cols-2 bp2:grid-cols-3 gap-6">
