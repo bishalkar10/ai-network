@@ -56,7 +56,10 @@ export default function Services() {
     />
   ));
   return (
-    <section className="bg-[#060A14] px-3 pb-10 w-full min-h-screen">
+    <section
+      id="services"
+      className="bg-[#060A14] px-3 pb-10 w-full min-h-screen"
+    >
       <h2 className="text-center text-white text-3xl uppercase py-10 font-bold">
         Our Services
       </h2>
