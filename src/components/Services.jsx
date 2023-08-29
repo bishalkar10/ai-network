@@ -3,47 +3,62 @@ import Card from "./Card";
 export default function Services() {
   const cardDetails = [
     {
-      imgPath: "service-img-2.jpg",
-      altText: "Service 1",
-      title: "Remote Patient Monitoring",
+      imgPath: "ai6.jpg",
+      altText: "AI Network App",
+      title: "AI Network App",
       description:
-        "Nulla accumsan mi volutpat phasellus et. Donec donec hac porttitor placerat viverra lacus.",
+        " The AI NETWORK App offers airdrop, earning, and staking facilities. It will be deployed on the Binance Smart Chain (BSC), ensuring fast and low-cost transactions. The launch on decentralized platforms will enhance accessibility, followed by integration with BSC Scan and decentralized wallets, including the OKX Wallet.",
     },
     {
       imgPath: "service-img-3.jpg",
       altText: "Service 2",
-      title: "Medical Imaging Analysis",
+      title: "Live Trading Platform",
       description:
-        "Nulla accumsan mi volutpat phasellus et. Donec donec hac porttitor placerat viverra lacus.",
+        "The AI Network Project expands its offerings to include a live trading platform. Users gain the ability to execute trades directly within the platform, enhancing convenience and reducing the need for third-party exchanges.",
     },
     {
       imgPath: "service-img-4.jpg",
       altText: "Service 3",
-      title: "Virtual Assistant and Chatbots",
+      title: "Cross Chain Exchange",
       description:
-        "Nulla accumsan mi volutpat phasellus et. Donec donec hac porttitor placerat viverra lacus.",
+        "The introduction of cross-chain exchange capabilities allows users to trade assets across different blockchains seamlessly. This feature increases liquidity and widens the range of tradable assets.",
     },
     {
-      imgPath: "service-img-5.jpg",
+      imgPath: "ai4.jpg",
       altText: "Service 4",
-      title: "Robot-Assisted Surgery",
+      title: "Free AI Search Engine",
       description:
-        "Nulla accumsan mi volutpat phasellus et. Donec donec hac porttitor placerat viverra lacus.",
+        "A powerful AI search engine is integrated into the platform, providing users with real-time market insights, trends, and predictions. This empowers traders with data-driven decision-making capabilities.",
     },
     {
-      imgPath: "service-img-6.jpg",
+      imgPath: "ai3.jpg",
       altText: "Service 5",
-      title: "Farming Services",
+      title: "AI Tools for Trading Platforms",
       description:
-        "Nulla accumsan mi volutpat phasellus et. Donec donec hac porttitor placerat viverra lacus.",
+        "Users have access to AI-powered tools that offer predictive analytics, risk assessment, and trading strategies. These tools enable both novice and experienced traders to make informed decisions.",
     },
     {
-      imgPath: "service-img-2.jpg",
+      imgPath: "ai2.jpg",
       altText: "Service 6",
-      title: "Data Analytics and Insights",
+      title: "AI Code Generator Platform for Developers",
       description:
-        "Nulla accumsan mi volutpat phasellus et. Donec donec hac porttitor placerat viverra lacus.",
+        "The platform introduces an AI code generator that assists developers in automating the code-writing process. This significantly reduces development time and enhances efficiency.",
     },
+    {
+      imgPath: "ai1.jpg",
+      altText: "Service 6",
+      title: "AI Website Generator",
+      description:
+        "Content creators benefit from the AI website generator, which simplifies the creation of websites. This tool eliminates the need for extensive coding knowledge, democratizing website development..",
+    },
+    {
+      imgPath: "ai5.jpg",
+      altText: "Service 6",
+      title: "Exchanges Listings and Partnerships",
+      description:
+        "The platform strives to be listed on various cryptocurrency exchanges, increasing its accessibility and exposure. Strategic partnerships are established to foster ecosystem growth and collaboration.",
+    },
+
   ];
 
   const cardList = cardDetails.map((item, index) => (

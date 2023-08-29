@@ -6,6 +6,8 @@ import Roadmap from "./components/Roadmap";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
 import ScrollToTop from "./components/ScrollToTop";
+import Benefits from "./components/Benefits";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,8 +17,9 @@ function App() {
       <About />
        <Roadmap />
       <Services />
+      <Benefits/>
       <Contact />
-     
+  <Footer/>
       <ScrollToTop />
     </div>
   );

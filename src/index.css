@@ -23,7 +23,6 @@ font-size: 1.25em;
 color: #aaa8b1;
 border-radius: 5px;
 cursor: pointer;
-
 font-family: Inter, sans-serif;;
 scale: 1;
 transition: 0.5s ease-out;
@@ -40,3 +39,24 @@ transition: 0.5s ease-out;
   background-color: aqua;
 }
 
+.ant-list-item-meta-title a{
+  /* color: #ffc5ff !important; */
+  color: #59C09D !important;
+  font-size: 1.25em;
+  font-weight: 500;
+}
+.ant-list-item-meta-description {
+  color: white !important;
+  font-size: 1.2em;
+overflow-x: hidden;
+}
+.ant-list{
+width: 90%;
+text-align: center;
+}
+
+@media screen and (max-width:420px) {
+  .ant-timeline-item-content{
+    font-size: 0.9em;
+  }
+}
