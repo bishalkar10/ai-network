@@ -7,20 +7,24 @@ export default {
         bp: "575px",
         bp2: "991px",
       },
-    },
-    keyframes: {
-      expand: {
-        "0%": { height: "0" },
-        "100%": { height: "250px" },
+      keyframes: {
+        expand: {
+          "0%": { height: "0" },
+          "100%": { height: "250px" },
+        },
+        collapse: {
+          "0%": { height: "250px" },
+          "100%": { height: "0" },
+        },
       },
-      collapse: {
-        "0%": { height: "250px" },
-        "100%": { height: "0" },
+      animation: {
+        expand: "expand 0.3s ease-in-out forwards",
+        collapse: "collapse 0.3s ease-in-out forwards",
       },
-    },
-    animation: {
-      expand: "expand 0.3s ease-in-out forwards",
-      collapse: "collapse 0.3s ease-in-out forwards",
+      fontFamily: {
+        Exo: [' "Exo 2" ', "sans-serif"],
+        Inter: ["Inter", "sans-serif"],
+      },
     },
   },
   plugins: [],
