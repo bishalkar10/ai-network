@@ -9,7 +9,10 @@ import {
 
 export default function Homepage() {
   return (
-    <div className='bg-[url("ai-home-image.jpg")] bg-cover bg-center min-h-screen relative px-3 flex items-center'>
+    <section
+      id="home"
+      className='bg-[url("ai-home-image.jpg")] bg-cover bg-center min-h-screen relative px-3 flex items-center'
+    >
       <div className="md:pl-10">
         <h2 className="text-white text-4xl md:text-5xl font-bold md:w-[460px]">
           AI and Robotics can change your
@@ -62,6 +65,6 @@ export default function Homepage() {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

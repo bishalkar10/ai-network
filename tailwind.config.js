@@ -11,10 +11,10 @@ export default {
     keyframes: {
       expand: {
         "0%": { height: "0" },
-        "100%": { height: "200px" },
+        "100%": { height: "250px" },
       },
       collapse: {
-        "0%": { height: "200px" },
+        "0%": { height: "250px" },
         "100%": { height: "0" },
       },
     },
