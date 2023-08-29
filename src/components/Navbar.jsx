@@ -9,18 +9,23 @@ export default function Navbar() {
     setMenuOpen(!menuOpen);
   };
   return (
-    <header className="w-full h-20 bg-[#060A14]">
+    <header className="w-full h-20 bg-[#060A14] sticky top-0 z-40">
       <nav className="relative h-full w-full flex items-center px-10">
         <h1 className="text-white text-3xl mr-auto">AI NETWORK</h1>
         <ul className="hidden md:flex text-white gap-6 text-lg ">
           <li>
-            <a className="hover:text-[#F6AE64] duration-500" href="#">
+            <a className="hover:text-[#F6AE64] duration-500" href="#home">
               Home
             </a>
           </li>
           <li>
-            <a className="hover:text-[#F6AE64] duration-500" href="#">
+            <a className="hover:text-[#F6AE64] duration-500" href="#about">
               About
+            </a>
+          </li>
+          <li>
+            <a className="hover:text-[#F6AE64] duration-500" href="#services">
+              Services
             </a>
           </li>
           <li>
@@ -29,7 +34,7 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a className="hover:text-[#F6AE64] duration-500" href="#">
+            <a className="hover:text-[#F6AE64] duration-500" href="#contact">
               Contact
             </a>
           </li>
@@ -49,7 +54,7 @@ export default function Navbar() {
           <li>
             <a
               className="block bg-white pl-5 py-3 border-b-[1px] hover:bg-[#F6AE64] duration-150"
-              href="#"
+              href="#home"
             >
               Home
             </a>
@@ -57,9 +62,17 @@ export default function Navbar() {
           <li>
             <a
               className="block bg-white pl-5 py-3 border-b-[1px] hover:bg-[#F6AE64] duration-150"
-              href="#"
+              href="#about"
             >
               About
+            </a>
+          </li>
+          <li>
+            <a
+              className="block bg-white pl-5 py-3 border-b-[1px] hover:bg-[#F6AE64] duration-150"
+              href="#services"
+            >
+              Services
             </a>
           </li>
           <li>
@@ -73,7 +86,7 @@ export default function Navbar() {
           <li>
             <a
               className="block bg-white pl-5 py-3 border-b-[1px] hover:bg-[#F6AE64] duration-150"
-              href="#"
+              href="#contact"
             >
               Contact
             </a>
