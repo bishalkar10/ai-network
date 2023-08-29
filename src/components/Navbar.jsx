@@ -10,8 +10,12 @@ export default function Navbar() {
   };
   return (
     <header className="w-full h-20 bg-[#060A14] sticky top-0 z-40">
-      <nav className="relative h-full w-full flex items-center px-10">
-        <h1 className="text-white text-3xl mr-auto">AI NETWORK</h1>
+      <nav className="relative h-full w-full flex items-center px-8">
+      <img src="/logo.png" className="px-7 mt-1 ml-[-50px] cursor-pointer" alt="" width={140} height={100} />
+        <h1 className="text-white text-3xl mr-auto ml-[-20px]">
+    AI Network
+        </h1>
+
         
         <ul className="hidden md:flex text-white gap-6 text-lg ">
           <li>

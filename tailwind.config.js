@@ -20,11 +20,13 @@ export default {
       animation: {
         expand: "expand 0.3s ease-in-out forwards",
         collapse: "collapse 0.3s ease-in-out forwards",
+        'bounce-slow': 'bounce 5s linear infinite',
       },
       fontFamily: {
         Exo: [' "Exo 2" ', "sans-serif"],
         Inter: ["Inter", "sans-serif"],
       },
+
     },
   },
   plugins: [],

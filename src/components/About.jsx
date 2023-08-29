@@ -12,7 +12,7 @@ export default function About() {
           <img
             src="crane-image.jpg"
             alt="crane-image"
-            className="rounded-[15px] w-[216px] mx-auto sm:mx-0"
+            className="rounded-[15px] animate-bounce-slow w-[216px] mx-auto sm:mx-0"
           />
           {/* <div className="bg-[#59C09D] max-w-lg sm:max-w-full px-4 py-5 text-4xl font-bold flex items-center gap-2 rounded-xl mx-auto sm:mx-0">
             10+ <span className="text-xl ">Years of Experience</span>
