@@ -7,3 +7,36 @@
 html {
   scroll-behavior: smooth;
 }
+
+.ant-timeline-item-label{
+  font-size: 1.25em;
+font-weight: 600;
+}
+.ant-timeline-item{
+padding: 5px;
+}
+.ant-timeline-item-content{
+background-color: #121320;
+/* height: 50px; */
+padding: 8px 10px;
+font-size: 1.25em;
+color: #aaa8b1;
+border-radius: 5px;
+cursor: pointer;
+
+font-family: Inter, sans-serif;;
+scale: 1;
+transition: 0.5s ease-out;
+}
+.ant-timeline-item-content:hover{
+  scale: 0.9;
+  transition: 0.5s ease-in;
+  box-shadow: 1px 1px 15px #59C09D;
+  color: white;
+}
+
+
+.ant-timeline-item-tail{
+  background-color: aqua;
+}
+

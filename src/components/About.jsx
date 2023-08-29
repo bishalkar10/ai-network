@@ -14,9 +14,9 @@ export default function About() {
             alt="crane-image"
             className="rounded-[15px] w-[216px] mx-auto sm:mx-0"
           />
-          <div className="bg-[#59C09D] max-w-lg sm:max-w-full px-4 py-5 text-4xl font-bold flex items-center gap-2 rounded-xl mx-auto sm:mx-0">
+          {/* <div className="bg-[#59C09D] max-w-lg sm:max-w-full px-4 py-5 text-4xl font-bold flex items-center gap-2 rounded-xl mx-auto sm:mx-0">
             10+ <span className="text-xl ">Years of Experience</span>
-          </div>
+          </div> */}
         </div>
 
         {/* grid col 2 */}
@@ -38,11 +38,7 @@ export default function About() {
             </p>
             <br />
             <p className="text-[#AAA8B1]">
-              It encompasses the development, deployment, and utilization of
-              intelligent machines that can perform tasks traditionally
-              requiring human intelligence. This industry holds immense
-              potential to transform various sectors and reshape the way we
-              live, work, and interact with technology.
+            The AI Network Project is a revolutionary initiative that seeks to harness the power of artificial intelligence within the blockchain ecosystem. This whitepaper outlines the project's phases, technical architecture, AI integration, ecosystem utilities, security measures, community engagement strategies, token economics, and future prospects. By merging AI capabilities with decentralized technology, our goal is to create a platform that offers users a seamless experience in trading, development, and content creation.
             </p>
             <a
               className="my-7 inline-block px-4 py-2 rounded bg-[#F6AE64] hover:bg-[#59C09D] duration-300 cursor-pointer"

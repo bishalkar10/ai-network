@@ -59,9 +59,8 @@ export default function Homepage() {
         </ul>
         <div className="mt-[30px] p-[25px] bg-[rgba(6,10,20,0.5)] max-w-[730px] rounded-[15px] md:max-w-[360px] md:absolute md:bottom-0 md:right-0">
           <p className="text-white font-Inter">
-            AI and robotic technologies have gained significant traction across
-            industries, revolutionizing the way work is performed, improving
-            efficiency and increasing safety.
+        
+"Empowering the Future: Where AI Meets Blockchain - The AI Network Project Unveils a Seamless Ecosystem for Trading, Development, and Content Creation"
           </p>
         </div>
       </div>

@@ -12,6 +12,7 @@ export default function Navbar() {
     <header className="w-full h-20 bg-[#060A14] sticky top-0 z-40">
       <nav className="relative h-full w-full flex items-center px-10">
         <h1 className="text-white text-3xl mr-auto">AI NETWORK</h1>
+        
         <ul className="hidden md:flex text-white gap-6 text-lg ">
           <li>
             <a className="hover:text-[#F6AE64] duration-500" href="#home">
@@ -29,7 +30,7 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a className="hover:text-[#F6AE64] duration-500" href="#">
+            <a className="hover:text-[#F6AE64] duration-500" href="#roadmap">
               Roadmap
             </a>
           </li>

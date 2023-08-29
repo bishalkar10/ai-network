@@ -13,9 +13,10 @@ function App() {
       <Navbar />
       <Homepage />
       <About />
+       <Roadmap />
       <Services />
       <Contact />
-      {/* <Roadmap /> */}
+     
       <ScrollToTop />
     </div>
   );
