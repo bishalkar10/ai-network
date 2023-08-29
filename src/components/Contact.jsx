@@ -202,7 +202,7 @@ export default function Contact() {
           </div>
           <button
             type="submit"
-            className=" block rounded-lg py-2 px-3 bg-purple-900 text-white absolute -bottom-20 left-0"
+            className=" block rounded-lg py-2 px-3 bg-purple-900 text-white absolute -bottom-12 left-0"
           >
             Send Messege
           </button>
