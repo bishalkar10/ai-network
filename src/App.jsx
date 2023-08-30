@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import ScrollToTop from "./components/ScrollToTop";
 import Benefits from "./components/Benefits";
 import Footer from "./components/Footer";
+import Refer from "./components/Refer";
 
 function App() {
   return (
@@ -15,11 +16,12 @@ function App() {
       <Navbar />
       <Homepage />
       <About />
-       <Roadmap />
+      <Roadmap />
       <Services />
-      <Benefits/>
+      <Benefits />
+      <Refer />
       <Contact />
-  <Footer/>
+      <Footer />
       <ScrollToTop />
     </div>
   );
