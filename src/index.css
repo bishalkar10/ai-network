@@ -1,62 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=Inter&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=Inter&display=swap");
 
 html {
   scroll-behavior: smooth;
 }
 
-.ant-timeline-item-label{
+.ant-timeline-item-label {
   font-size: 1.25em;
-font-weight: 600;
+  font-weight: 600;
 }
-.ant-timeline-item{
-padding: 5px;
+.ant-timeline-item {
+  padding: 5px;
 }
-.ant-timeline-item-content{
-background-color: #121320;
-/* height: 50px; */
-padding: 8px 10px;
-font-size: 1.25em;
-color: #aaa8b1;
-border-radius: 5px;
-cursor: pointer;
-font-family: Inter, sans-serif;;
-scale: 1;
-transition: 0.5s ease-out;
+.ant-timeline-item-content {
+  background-color: #121320;
+  /* height: 50px; */
+  padding: 8px 10px;
+  font-size: 1.25em;
+  color: #aaa8b1;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Inter, sans-serif;
+  scale: 1;
+  transition: 0.5s ease-out;
 }
-.ant-timeline-item-content:hover{
+.ant-timeline-item-content:hover {
   scale: 0.9;
   transition: 0.5s ease-in;
-  box-shadow: 1px 1px 15px #59C09D;
+  box-shadow: 1px 1px 15px #59c09d;
   color: white;
 }
 
-
-.ant-timeline-item-tail{
+.ant-timeline-item-tail {
   background-color: aqua;
 }
 
-.ant-list-item-meta-title a{
+.ant-list-item-meta-title a {
   /* color: #ffc5ff !important; */
-  color: #59C09D !important;
+  color: #59c09d !important;
   font-size: 1.25em;
   font-weight: 500;
 }
 .ant-list-item-meta-description {
   color: white !important;
   font-size: 1.2em;
-overflow-x: hidden;
+  overflow-x: hidden;
 }
-.ant-list{
-width: 90%;
-text-align: center;
+.ant-list {
+  width: 90%;
+  text-align: center;
 }
 
-@media screen and (max-width:420px) {
-  .ant-timeline-item-content{
+@media screen and (max-width: 420px) {
+  .ant-timeline-item-content {
     font-size: 0.9em;
   }
 }
