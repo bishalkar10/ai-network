@@ -36,7 +36,7 @@ export default function Refer() {
 export const Card = ({ item }) => {
   const { level, earning, token } = item;
   return (
-    <div className="border-2 border-white rounded-lg p-6 bg-[#121320] max-w-[350px] w-full mx-auto">
+    <div className="hover:ring-2 ring-[#59C09D] rounded-lg p-6 bg-[#121320] max-w-[350px] w-full mx-auto">
       <h4 className="text-3xl  font-bold font-Exo ">
         Level <span className="text-[#59C09D] text-5xl">{level}</span>
       </h4>
