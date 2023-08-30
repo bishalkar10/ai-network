@@ -55,7 +55,7 @@ export default function Contact() {
       <h2 className="text-center text-white text-3xl uppercase pb-10 font-bold">
         Contact
       </h2>
-      <div className="bp2:w-full bp2:px-7 bp2:gap-x-6 bp2:grid bp2:grid-cols-3 max-w-lg md:max-w-[720px] bp2:max-w-full mx-auto">
+      <div className="bp2:w-full bp2:px-7 bp2:gap-x-6 bp2:grid bp2:grid-cols-3 max-w-lg md:max-w-[720px] bp2:max-w-[960px] mx-auto">
         <div className="p-6 bg-[#121320] rounded-[15px] bp2:row-span-4">
           <h3 className="text-white font-bold text-2xl mb-6">
             Contact Information
