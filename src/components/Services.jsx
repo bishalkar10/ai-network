@@ -3,13 +3,6 @@ import Card from "./Card";
 export default function Services() {
   const cardDetails = [
     {
-      imgPath: "ai6.jpg",
-      altText: "AI Network App",
-      title: "AI Network App",
-      description:
-        " The AI NETWORK App offers airdrop, earning, and staking facilities. It will be deployed on the Binance Smart Chain (BSC), ensuring fast and low-cost transactions. The launch on decentralized platforms will enhance accessibility, followed by integration with BSC Scan and decentralized wallets, including the OKX Wallet.",
-    },
-    {
       imgPath: "service-img-3.jpg",
       altText: "Service 2",
       title: "Live Trading Platform",
@@ -22,13 +15,6 @@ export default function Services() {
       title: "Cross Chain Exchange",
       description:
         "The introduction of cross-chain exchange capabilities allows users to trade assets across different blockchains seamlessly. This feature increases liquidity and widens the range of tradable assets.",
-    },
-    {
-      imgPath: "ai4.jpg",
-      altText: "Service 4",
-      title: "Free AI Search Engine",
-      description:
-        "A powerful AI search engine is integrated into the platform, providing users with real-time market insights, trends, and predictions. This empowers traders with data-driven decision-making capabilities.",
     },
     {
       imgPath: "ai3.jpg",
@@ -45,6 +31,20 @@ export default function Services() {
         "The platform introduces an AI code generator that assists developers in automating the code-writing process. This significantly reduces development time and enhances efficiency.",
     },
     {
+      imgPath: "ai6.jpg",
+      altText: "AI Network App",
+      title: "AI Network App",
+      description:
+        " The AI NETWORK App offers airdrop, earning, and staking facilities. It will be deployed on the Binance Smart Chain (BSC), ensuring fast and low-cost transactions. The launch on decentralized platforms will enhance accessibility, followed by integration with BSC Scan and decentralized wallets, including the OKX Wallet.",
+    },
+    {
+      imgPath: "ai4.jpg",
+      altText: "Service 4",
+      title: "Free AI Search Engine",
+      description:
+        "A powerful AI search engine is integrated into the platform, providing users with real-time market insights, trends, and predictions. This empowers traders with data-driven decision-making capabilities.",
+    },
+    {
       imgPath: "ai1.jpg",
       altText: "Service 6",
       title: "AI Website Generator",
@@ -58,7 +58,6 @@ export default function Services() {
       description:
         "The platform strives to be listed on various cryptocurrency exchanges, increasing its accessibility and exposure. Strategic partnerships are established to foster ecosystem growth and collaboration.",
     },
-
   ];
 
   const cardList = cardDetails.map((item, index) => (
