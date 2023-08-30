@@ -65,24 +65,22 @@ const Benefits = () => {
         width={250}
         height={380}
       />
-
-      <List
-        size="large"
-        style={{ color: "white" }}
-        itemLayout="horizontal"
-        dataSource={data}
-        renderItem={(item, index) => (
-          <List.Item>
-            <List.Item.Meta
-              key={index}
-              title={<a href="https://ant.design">{item.title}</a>}
-              description={<p>{item.description}</p>}
-            />
-          </List.Item>
-        )}
-      />
+      <div>
+        {data.map((item, index) => (
+          <Card key={index} title={item.title} description={item.description} />
+        ))}
+      </div>
     </section>
   );
 };
+
+function Card({ title, description }) {
+  return (
+    <div className="p-8 border-[1px] border-[#59c09d] rounded-lg mt-6 transform duration-300 hover:scale-105">
+      <h4 className="text-[#59c09d] font-bold font-Exo text-xl">{title}</h4>
+      <p className="text-white font-Inter">{description}</p>
+    </div>
+  );
+}
 
 export default Benefits;
