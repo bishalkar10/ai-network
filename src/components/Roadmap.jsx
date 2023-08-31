@@ -15,27 +15,50 @@ export default function Roadmap() {
         className="mt-16 text-white flex-auto"
         items={[
           {
-            children:
-              " AI NETWORK App: The AI NETWORK App offers airdrop, earning, and staking facilities. It will be deployed on the Binance Smart Chain (BSC), ensuring fast and low-cost transactions. The launch on decentralized platforms will enhance accessibility, followed by integration with BSC Scan and decentralized wallets, including the OKX Wallet.",
+
+            children:<> <p>AI NETWORK App (Airdrop, Earning And Staking Facilities)</p> <br/>
+            <p>Deployment On BSC Smart Chain </p>
+            <br/>
+            <p>Launch On Decentralised Platforms</p>
+            <br/>
+            <p>BSC Scan And Decentralised Wallets Update </p>
+            <br/>
+            <p>OKX Wallet Listing </p>
+             </>
+             ,
             label: "Phase 1",
             color: "green",
           },
           {
-            children:
-              "Live Trading Platform and AI Tools: This phase introduces a live trading platform with cross-chain exchange capabilities. The addition of a free AI search engine and AI tools for trading platforms empowers users with advanced trading insights.",
+            children:<> <p>Live Trading Platform</p> <br/>
+            <p>Cross Chain Exchange</p>
+            <br/>
+            <p>Free AI Search Engine </p>
+            <br/>
+            <p>AI Tools For Trading Platforms </p>
+            <br/>
+             </>,
             label: "Phase 2",
             color: "green",
           },
           {
-            children:
-              "AI Code and Website Generator: The project expands its offerings to developers with an AI code generator platform and an AI website generator. These tools streamline development processes and enhance efficiency.",
+            children:<> <p>AI Code Generator Platform For Developers</p> <br/>
+            <p>AI Website Generator</p>
+            <br/>
+            <p>AI Fun Tube (Earning Platform)</p>
+             </>
+             ,
             label: "Phase 3",
             color: "green",
           },
           {
-            children:
-              "Exchanges Listings and Partnerships: The final phase focuses on listing the platform on various exchanges and establishing strategic partnerships to foster growth and adoption.",
+            children:<> <p>Exchanges Listings And Partnerships Are Ahead </p> <br/>
+            <p>All Information </p>
+            <br/>
+            <p>Coming Soon....</p>
+             </>,
             label: "Phase 4",
+            color:"green"
           },
         ]}
       />
@@ -44,3 +67,4 @@ export default function Roadmap() {
 }
 // .ant-timeline-item-content
 // .ant-timeline-item-tail
+

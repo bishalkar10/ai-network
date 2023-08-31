@@ -4,48 +4,48 @@ import { Avatar, List } from "antd";
 const data = [
   {
     title: "Phase 1",
-    description: "10 lakh Coin price 0.01$",
+    description: "10 lakh Coins at price 0.01$",
   },
   {
     title: "Phase 2",
-    description: "20 Lakh coin price 0.02$",
+    description: "20 Lakh Coins at price 0.02$",
   },
   {
     title: "Phase 3",
-    description: "40 Lakh coin price 0.04$",
+    description: "40 Lakh Coins at price 0.04$",
   },
   {
     title: "Phase 4",
-    description: "80 Lakh coin price 0.08$",
+    description: "80 Lakh Coins at price 0.08$",
   },
   {
     title: "Phase 5",
-    description: "1Cr coin price 0.1$",
+    description: "1Cr Coins at price 0.1$",
   },
   {
     title: "Phase 6",
-    description: "2Cr coin price 0.2$",
+    description: "2Cr Coins at price 0.2$",
   },
 
   {
     title: "Phase 7",
-    description: "4Cr coin price 0.4$",
+    description: "4Cr Coins at price 0.4$",
   },
   {
     title: "Phase 8",
-    description: "8Cr coin price 0.8$",
+    description: "8Cr Coins at price 0.8$",
   },
   {
     title: "Phase 9",
-    description: "10Cr coin price 1$",
+    description: "10Cr Coins at price 1$",
   },
   {
     title: "Phase 10",
-    description: "20Cr coin price 1.5$",
+    description: "20Cr Coins at price 1.5$",
   },
   {
     title: "",
-    description: "Exchange listing 2$ coin price",
+    description: "Exchange listing at 2$ Coin price",
   },
 ];
 
